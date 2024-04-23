@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@font-face {
+    font-family: 'GS Regular';
+    src: url( '../fonts/GeneralSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'GS Bold';
+    src: url( '../fonts/GeneralSans-Bold.otf');    
+}
+
+@font-face {
+    font-family: 'GS Medium';
+    src: url( '../fonts/GeneralSans-Medium.otf');      
+}
+
+@font-face {
+    font-family: 'GS SemiBold';
+    src: url( '../fonts/GeneralSans-Semibold.otf');      
+}
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111111;
+    color: white;
+    font-family: 'GS Regular', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Navbar Styles */
+
+.title-logo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#img-logo{
+    border-radius: 6px;
+}
+
+#img-logo-small{
+    border-radius: 100%;
+}
+
+.img-wrapper{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;  
+}
+
+.nav-wrapper ul{
+    display: flex;
+    font-size: 18px;
+    font-family: "GS Regular", sans-serif;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-wrapper ul li{
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+/* Hero Section Styles */
+
+.description-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-container{
+    display: flex;
+    gap: 10px;
+    font-size: 26px;
+    padding-top: 8px;
+}
+
+.description h1{
+    font-size: 37px;
+    font-family: "GS Bold", sans-serif;
+}
+
+.description p{
+    font-size: 22px;
+    font-family: 'GS Medium', sans-serif;
+    color: #A8A8B5;
+}
+
+.resume{
+    padding: 20px;
+}
+
+.wrapper-description{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.tag{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #00FF94;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-family: 'GS Medium', sans-serif;
+
+}
+
+.tag i{
+    font-size: 15px;
+}
+
+model-viewer{
+    width: auto;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+/* Work Section Styles */
+
+.title-section{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: 'GS SemiBold', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.title-section i{
+    font-size: 26px;
+}
+
+.img-project img{
+    width: 208px;
+    height: 208px;
+    
+    border-radius: 16px;
+}
+
+.tag-wrapper{
+    display: flex;
+    gap: 8px;
+    
+}
+
+.tags-container .tag {
+    background-color: #ffffff;
+    color: black;
+    padding: 3px 12px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-family: 'GS Medium', sans-serif;
+}
+
+
+.project-description h3{
+    font-size: 22px;
+    font-family: 'GS SemiBold', sans-serif;
+    
+    
+}
+.project-description p{
+    font-size: 16px;
+    font-family: 'GS Regular', sans-serif;
+    color: #A8A8B5;
+    
+}
+
+.wrapper-buttons{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.wrapper-buttons button i{
+    font-size: 18px;
+}
+
+.wrapper-buttons button:first-child i{
+    font-size: 24px;
+}
+
+.wrapper-buttons button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 100px;
+    border: 2px solid #DC003D;
+    font-family: 'GS Medium', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+}
+
+.wrapper-buttons button:hover{
+    background-color: #DC003D;
+    color: rgb(0, 0, 0);
+    border: 2px solid #DC003D;
+    transition: all 0.3s ease-out;
+  
+    
+}
+
+.project-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.project-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
