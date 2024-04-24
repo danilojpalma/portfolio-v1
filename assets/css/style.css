@@ -364,13 +364,13 @@ model-viewer{
     justify-content: start;
     flex-wrap: wrap;
 
-    gap: 20px;
+    gap: 5px;
     
 }
 
 .stack-item{
     display: flex;
-    width: 110px;
+    width: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -382,7 +382,7 @@ model-viewer{
 }
 
 .stack-item h3{
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'GS Light', sans-serif;
 }
 
