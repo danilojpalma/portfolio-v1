@@ -208,6 +208,7 @@ model-viewer{
 .img-project img{
     width: 208px;
     height: 208px;
+    object-fit: cover;
     border-radius: 16px;
 }
 
@@ -306,6 +307,13 @@ model-viewer{
 }
 
 /* Bio Section Styles */
+
+.title-bio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
 
 .timeline-title {
     display: flex;
@@ -507,6 +515,75 @@ model-viewer{
         line-height: 1.5;
     
     }
+
+    /* work section styles */
+
+    
+    .img-project{
+        width: 100%;
+        height: 200px;
+        border-radius: 16px;
+    }
+
+    .img-project img{
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
+        border-radius: 16px;
+    }
+
+    .title-section h2{
+        font-size: 22px;
+    }
+
+    .title-section i{
+        font-size: 22px;
+    }
+
+    .project-description h3{
+        font-size: 20px;
+    }
+
+    .project-description p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .title-section-bio{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+       }
+
+    /* link section styles */
+
+    .link{
+        flex-direction: column;
+    }
+
+    /* about section stles  */
+
+    .about-wrapper{
+        flex-direction: column;
+    }
+
+    .about-wrapper img{
+        width: 250px;
+        height: 250px;
+        border-radius: 10%;
+    
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    
+    }
 }
 
 
@@ -603,4 +680,30 @@ model-viewer{
         height: 250px;
         border-radius: 16px;
     }
+
+    .title-section h2{
+        font-size: 24px;
+    }
+
+    .title-section i{
+        font-size: 24px;
+    }
+
+    .project-description h3{
+        font-size: 21px;
+    }
+
+    .project-description p{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    /* links section styles */
+
+    .link{
+        flex-direction: column;
+    }
+
+    
+
 }
