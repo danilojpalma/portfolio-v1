@@ -18,25 +18,25 @@
     
     <div class="img-wrapper"><img src="assets/img/bg_gradient.png" alt=""></div>
 
-    <nav>
-        
-        <div class="container nav-container">
-            <div class="logo-container">
-                <a href=""><img id="img-logo-small" src="assets/img/ruzzek_logo.jpg" width="45px" height="45px" alt="logotipo"></a>
-                <h2>RUZZEK</h2>
+    <header class="container">
+        <nav>
+            <div class="container nav-container">
+                <div class="logo-container">
+                    <a href=""><img id="img-logo-small" src="assets/img/ruzzek_logo.jpg" width="45px" height="45px" alt="logotipo"></a>
+                    <h2>RUZZEK</h2>
+                </div>
+                <div class="nav-wrapper">
+                    <ul>
+                        <li><a class="translate" data-es="Inicio" data-en="Home" href="index.html">Home</a></li>
+                        <li><a class="translate" data-es="Proyectos" data-en="Work" href="#work">Work</a></li>
+                        <li><a target="_blank" href="https://www.ruzzek.com">Blog</a></li>
+                        <li><a class="translate" data-es="Info" data-en="About" href="#about">About</a></li>
+                    </ul>
+                    
+                </div>
             </div>
-            <div class="nav-wrapper">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
 
-    <main class="container">
         <section class="hero-3d">
             <model-viewer alt="ruzzek" src="assets/3d/old_pc_low_poly_game_model.glb" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y" disable-pan disable-zoom ></model-viewer>
         </section>
@@ -48,31 +48,36 @@
                     <h1>Danilo J. Palma</h1>
                     <div class="tag">
                         <i class="fa-solid fa-briefcase"></i>
-                        <h3>Open to Work</h3>
+                        <h3 class="translate" data-es="Disponible para trabajar" data-en="Open to Work">Open to Work</h3>
                     </div>
                 </div>
-                <p>Full Stack JavaScript Developer</p>
+                <p>Frontend Developer</p>
                 <div class="contact-wrapper">
                     <div class="icon-container">
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-square-github"></i></a>
-                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="mailto:danilopalma.v@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/ruzzek.dev/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/danilojpalma/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/danilojpalma"><i class="fa-brands fa-square-github"></i></a>
+                        <!-- <a target="_blank" href="https://twitter.com/Ruzzek_"><i class="fa-brands fa-square-x-twitter"></i></a> -->
                     </div>
-                    
                 </div>
-                
             </div>
-
-            
         </section>
 
         <section class="resume">
-            <p>I'm Full Stack Developer based in Valparaíso, Chile. I have a passion for creating fun and interactive digital products.  I specialize in real-time 3D and 3D web-based projects</p>
+            <p class="translate" 
+            
+            data-es="Profesional proactivo y altamente motivado con más de 2 años de experiencia en Diseño UX/UI y Desarrollo Web. Busco una posición de nivel junior como Desarrollador Frontend. Mi especialidad es ayudar a las empresas a cerrar la brecha de comunicación entre los equipos de diseño y desarrollo." 
+            
+            data-en="Proactive and highly motivated professional with 2+ years of experience in UX/UI Design and Web Development seeking an entry-level position as a Frontend Developer. I help companies bridge the communication gap between design and development teams."
+            
+            >Proactive and highly motivated professional with 2+ years of experience in UX/UI Design and Web Development seeking an entry-level position as a Frontend Developer. I help companies bridge the communication gap between design and development teams.</p>
         </section>
+    </header>
 
-        <section class="proyects-section">
+    <main class="container">
+<!-- Project Section -->
+        <section class="proyects-section" id="work">
             <div class="title-section">
                 <i class="fa-solid fa-briefcase"></i>
                 <h2>Latest Projects</h2>
@@ -204,7 +209,7 @@
 
         </section>
 
-
+<!-- Bio Timeline Section -->
         <section class="timeline-section">
 
             <div class="timeline-title">
@@ -213,17 +218,17 @@
                         <i class="fa-solid fa-clock"></i>
                         <h2>Bio Timeline</h2>
                     </div>
-                    <div class="tag">
+                    <!-- <div class="tag">
                         <i class="fa-brands fa-linkedin"></i>
                         <h3>Full Info on Linkedin</h3>
-                    </div>
+                    </div> -->
                 </div>
                 
             </div>
 
             <div class="timeline">
                 <div class="timeline-item">
-                    <p><span class="fechas">2020</span> • Internship in advertising agency La Vitamina</p>
+                    <p ><span class="fechas">2020</span> • Internship in advertising agency La Vitamina</p>
                 </div>
                 <div class="timeline-item">
                     <p><span class="fechas">2021</span> • Graduated as a Graphic Designer at Duoc UC Viña del Mar</p>
@@ -238,6 +243,7 @@
 
         </section>
 
+<!-- Dev Stack Section -->
         <section class="stack-section">
             <div class="title-section">
                 <i class="fa-solid fa-code"></i>
@@ -272,11 +278,6 @@
                     </div>
 
                     <div class="stack-item">
-                        <img src="assets/img/nodejs.png" alt="">
-                        <h3>Node.js</h3> 
-                    </div>
-
-                    <div class="stack-item">
                         <img src="assets/img/bootstrap5.png" alt="">
                         <h3>Bootstrap</h3> 
                     </div>
@@ -297,6 +298,11 @@
                     </div>
 
                     <div class="stack-item">
+                        <img src="assets/img/nodejs.png" alt="">
+                        <h3>Node.js</h3> 
+                    </div>
+
+                    <div class="stack-item">
                         <img src="assets/img/reactjs.png" alt="">
                         <h3>React.js</h3> 
                     </div>
@@ -308,7 +314,7 @@
         </section>
         
         
-       
+ <!-- Link Section -->      
             <section class="link-section">
                 
                     <div class="title-section">
@@ -318,7 +324,7 @@
 
                     <div class="link">
 
-                        <a class="link-wrapper" href="">
+                        <a class="link-wrapper" target="_blank" href="https://www.youtube.com/@Ruzzek">
                             <div class="link youtube">
                                 <img src="assets/img/ruzzek_logo.jpg" width="64px" alt="">
                                 <i class="fa-brands fa-youtube"></i>
@@ -336,7 +342,7 @@
                         </a>
                                        
                         
-                        <a class="link-wrapper" href="">
+                        <a class="link-wrapper" target="_blank" href="https://danilojpalma.com">
                         <div class="link hashnode">
                             <img src="assets/img/logo_personal_cuadrado.png"  alt="">
                             <i class="fa-brands fa-hashnode"></i>
@@ -356,7 +362,9 @@
                     </div>
             </section>
 
-            <section class="about-section">
+
+<!-- About Section -->
+            <section class="about-section" id="about">
                 <div class="title-section">
                     <i class="fa-solid fa-user-ninja"></i>
                     <h2>About</h2>
@@ -365,16 +373,18 @@
                     <div>
                         <img src="assets/img/ruzzek_logo.jpg" width="208px" alt="">
                     </div>
-                    <p>Hi! I'm Danilo J. Palma, a Full Stack Developer based in Valparaíso, Chile. I have a passion for creating fun and interactive digital products. I specialize in real-time 3D and 3D web-based projects. I'm currently working as a freelancer and studying software development at Desafío Latam and Alura.</p>
+                    <p>Hello, my name is Danilo (Ruzzek on internet), I am a graphic designer by profession and recently starting my career as a developer. I have more than two years of experience working with startups in companies like <a target="_blank" href="https://www.vinkodigital.com">Vinko</a> and <a target="_blank" href="https://www.lookiar.com">Lookiar</a>. I am passionate about technology and product design. 
+
+                    In my free time, I like to make digital art in blender, compose music, exercise, and learn new things.</p>
                 </div>
 
-              
+
             </section>
        
     </main>
 
 
-    
+<!-- Footer Section -->
     <footer>
         <div class="container footer-container">
             <div class="footer-wrapper">
@@ -384,7 +394,7 @@
                     <a href=""><i class="fa-brands fa-square-instagram"></i></a>
                     <a href=""><i class="fa-brands fa-linkedin"></i></a>
                     <a href=""><i class="fa-brands fa-square-github"></i></a>
-                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-square-x-twitter"></i></a> -->
                 </div>
             </div>
             <div class="footer-links">
@@ -403,5 +413,6 @@
     
     <script src="https://kit.fontawesome.com/85eec17e88.js" crossorigin="anonymous"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+
 </body>
 </html>
