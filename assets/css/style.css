@@ -63,6 +63,7 @@ a{
     margin-bottom: 20px;
 }
 
+
 .title-section i{
     font-size: 26px;
 }
@@ -169,7 +170,7 @@ a{
 }
 
 .description h1{
-    font-size: 37px;
+    font-size: 42px;
     font-family: "GS Bold", sans-serif;
 }
 
@@ -548,6 +549,7 @@ model-viewer{
         border-radius: 10px;
     }
 
+    
     .wrapper-description{
         display: flex;
         flex-direction: column-reverse;
@@ -555,6 +557,8 @@ model-viewer{
         gap: 10px;
 
     }
+
+    
 
     .description-container{
         gap: 0px;
@@ -666,7 +670,7 @@ model-viewer{
     }
     
     .img-container img{
-        width: 150px;
+        width: 170px;
         border-radius: 10px;
     }
 
@@ -679,15 +683,15 @@ model-viewer{
     }
 
     .wrapper-description h1{
-        font-size: 28px;
-        font-family: "GS SemiBold", sans-serif;
+        font-size: 45px;
+        font-family: "GS Bold", sans-serif;
 
     }
 
     
 
     .description p{
-        font-size: 16px;
+        font-size: 21px;
         font-family: 'GS Medium', sans-serif;
         color: #A8A8B5;
     }
