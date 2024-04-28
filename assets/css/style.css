@@ -71,6 +71,7 @@ a{
 /* Navbar Styles */
 
 #img-logo-small{
+    border-radius: 100%;
     width: 60px;
     height: 60px;
     
@@ -86,16 +87,11 @@ a{
     border-radius: 6px;
 }
 
-#img-logo-small{
-    border-radius: 100%;
-}
 
 .img-wrapper{
     position: absolute;
     z-index: -1;
     width: 100%;
-
-
 }
 
 .img-wrapper img{
