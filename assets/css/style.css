@@ -105,24 +105,22 @@ a{
 .logo-container{
     display: flex;
     gap: 10px;
-    align-items: center;  
+    align-items: center; 
+    width: 60px; 
+    height: 60px;
 }
 
-/* .logo-container h2{
 
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 900;
-} */
 
 .logo-container a{
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
 }
 
 .nav-wrapper ul{
     display: flex;
     font-size: 16px;
-    font-family: "GS Regular", sans-serif;
+    font-family: "GS Medium", sans-serif;
     gap: 10px;
     align-items: center;
     text-decoration: none;
