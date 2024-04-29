@@ -47,6 +47,12 @@ a{
     text-decoration: none;
 }
 
+.text-keyword{
+    color: #ffffff;
+    font-family: 'GS SemiBold', sans-serif;
+    font-style: normal;
+}
+
 .container{
     max-width: 800px;
     margin: 0 auto;
@@ -189,16 +195,34 @@ a{
     line-height: 1.5;
 }
 
-summary{
-    font-size: 18px;
-    font-family: 'GS Regular', sans-serif;
-    color: #A8A8B5;
-    line-height: 1.5;
+.email-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
     margin-top: 20px;
 }
 
+summary{
+    display: flex;
+    font-size: 18px;
+    font-family: 'GS Regular', sans-serif;
+    color: #A8A8B5;
+    justify-content: center;
+    line-height: 1.5;
+    margin-top: 20px;
+    list-style: none;
+    
+    
+}
+
+
+
 details p{
-    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    
 }
 
 .wrapper-description{
@@ -410,6 +434,10 @@ model-viewer{
     padding: 16px 24px 16px 24px;
 }
 
+.stack-item img{
+    width: 30px;
+}
+
 .stack-item h3{
     font-size: 14px;
     font-family: 'GS Light', sans-serif;
@@ -532,7 +560,7 @@ model-viewer{
 .about-wrapper{
     display: flex;
     gap: 30px;
-    align-items: center;
+    align-items: start;
     
 }
 
@@ -575,7 +603,7 @@ model-viewer{
         justify-content: center;
         align-items: center;
         padding: 25px 0;
-        gap: 20px;
+        gap: 10px;
     }
 
     #img-logo-small{
@@ -600,6 +628,12 @@ model-viewer{
     align-items: center ;
     }
 
+    .wrapper-description h1{
+        font-size: 40px;
+        font-family: "GS Bold", sans-serif;
+
+    }
+
     .wrapper-description{
         display: flex;
         flex-direction: column-reverse;
@@ -621,6 +655,10 @@ model-viewer{
     }
 
     /* work section styles */
+    .project{
+        gap: 60px;
+    }
+
     .project-wrapper{
         display: flex;
         flex-direction: column;
@@ -685,6 +723,8 @@ model-viewer{
 
     .about-wrapper{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .about-wrapper img{
